@@ -1,0 +1,157 @@
+
+* {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #555;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Pinyon Script', cursive;
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 2px 0 2px #555;
+    transition: 2s;
+    padding: 5%;
+    margin: 0;
+}
+
+h1:hover {
+    font-size: 240%;
+    color: #000;
+}
+
+nav {
+    margin-bottom: 50px;
+    display: block;
+    width: 100%;
+}
+
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url(/tree.jpg);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+}
+
+div {
+    width: 400px;
+    border-radius: 10px;
+    margin: 30px 20px;
+}
+
+div img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #555;
+    transition: 2s;
+    z-index: 99;
+}
+
+div img:hover {
+    width: 110%;
+    z-index: 999;
+    
+}
+
+
+footer {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #2596be;
+    font: size 1rem;
+    cursor: pointer;
+    background: #000428;
+    width: 100%;
+  }
+  .about-us, .info, .social-icons {
+    padding: 0;
+    margin: 0;
+  }
+  
+  footer a,
+  footer h3 {
+    color:#ccc;
+    transition: 2s;
+    text-decoration: none;
+    
+    text-align: center;
+  }
+  
+  footer a:hover {
+    color: #F2921D;
+    
+  }
+  
+  
+  .social-icons img {
+    height: 18px;
+    width: 15px;
+  } 
+  
+  .about-us, .info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .soc-int {
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .soc-int div {
+    margin:0;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+  #fb {
+    color: #3b5998;
+  }
+  
+  #ig {
+    color: #8a3ab9;
+  }
+  
+
+  @media only screen and (max-width: 1212px) {
+    footer a,
+    footer h3{
+      font-size: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 1000px) {
+    div {
+      width: 300px;
+    }
+  }
+
+  @media only screen and (max-width: 800px) {
+    div {
+      width: 200px;
+      margin: 20px 10px;
+    }
+    h1 {
+      font-size: 120%;
+    }
+    h1:hover {
+      font-size: 130%;
+    }
+  }
+  
+  
